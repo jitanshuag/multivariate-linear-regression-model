@@ -1,0 +1,34 @@
+
+t test of coefficients:
+
+                                             Estimate Std. Error t value
+(Intercept)                                 2.1968800  0.7071276  3.1068
+log_price                                  -0.1134597  0.0830434 -1.3663
+freight_price                              -0.0091450  0.0056897 -1.6073
+weekend                                     0.0572281  0.0659734  0.8674
+holiday                                     0.2140977  0.0459703  4.6573
+product_category_namecomputers_accessories  0.0450161  0.2021523  0.2227
+product_category_nameconsoles_games        -0.5439972  0.2528742 -2.1513
+product_category_namecool_stuff            -0.5437006  0.1982510 -2.7425
+product_category_namefurniture_decor       -0.1808182  0.2180739 -0.8292
+product_category_namegarden_tools          -0.0818925  0.1684815 -0.4861
+product_category_namehealth_beauty          0.0045738  0.1566383  0.0292
+product_category_nameperfumery             -0.4421374  0.2133605 -2.0723
+product_category_namewatches_gifts         -0.1791949  0.1900853 -0.9427
+                                            Pr(>|t|)    
+(Intercept)                                 0.001972 ** 
+log_price                                   0.172318    
+freight_price                               0.108466    
+weekend                                     0.386014    
+holiday                                    3.872e-06 ***
+product_category_namecomputers_accessories  0.823850    
+product_category_nameconsoles_games         0.031817 *  
+product_category_namecool_stuff             0.006262 ** 
+product_category_namefurniture_decor        0.407312    
+product_category_namegarden_tools           0.627084    
+product_category_namehealth_beauty          0.976714    
+product_category_nameperfumery              0.038628 *  
+product_category_namewatches_gifts          0.346174    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
